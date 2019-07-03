@@ -15,14 +15,77 @@
     <title>Villa Victor</title>
 </head>
 
-<body background="images/kimon-maritz-183501-unsplash.jpg">
-    
-        <div id="flip">
-            <h1>Welcome to Villa Victor</h1>
-            <small><i>click here</i></small>
+<body>
+
+    <!--The navbar-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active hvr-underline-from-center" href="#">Om oss<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link hvr-underline-from-center" href="#">Projekt</a>
+                
+            </div>
         </div>
-        <div id="panel"><a href="#"class="hvr-pulse">Our prices</a><br><a href="#"class="hvr-pulse">Book now</a></div>
-    
+        
+    </nav>
+    <h1>Villa Victor</h1>
+    <!--page body-->
+    <div class="row mt-3">
+        <div class="left col-md-6">
+            <h2 class="mt-5">Vi bygger bostäder för ett hållbarare samhälle</h2>
+        </div>
+        <div class="image1 col-md-6">
+
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="image2 col-md-6">
+        </div>
+        <div class="col-md-6">
+            <p>Bostadsrätt Lund</p>
+            <h2>Hustyp: Betong</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+            <div class="more mt-3">
+                <a class="nav-item nav-link hvr-shadow-radial" href="projekt.html">Se projektet</a>
+            </div>
+
+            <!--Pagination-->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link hvr-underline-from-center" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link hvr-underline-from-center" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link hvr-underline-from-center" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link hvr-underline-from-center" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link hvr-underline-from-center" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <!--footer area-->
+    <div class="footer-wrapper row mt-3">
+        <div class="footer-left col-md-6">
+            <p>Till minne av Victor</p>
+        </div>
+        <div class="footer-right col-md-6" id="flip">
+                <i>följ oss</i>
+        </div>
+            <div id="panel"><a href="https://facebook.com"class="hvr-pulse">Facebook</a><a href="https://instagram.com"class="hvr-pulse">Instagram</a></div>
+        </div>
+    </div>
+        
+        
     
 
     <!-- Optional JavaScript -->
