@@ -1,15 +1,45 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+/*
+logo
+.logo {
+  background-image: url("images/logga-black.svg");
+}
+*/
+
+.left {
+  display: flex;
+  width: 90vh;
+  height: 90vh;
+}
+
+.right {
+  display: flex;
+  width: 90vh;
+  height: 90vh;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+   
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+   
 }
 
 .image1 {
   background-image: url("images/anton-alexandru-95007-unsplash.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  width: 60vh;
-  height: 60vh;
+  width: 90vh;
+  height: 90vh;
   
 }
 
@@ -17,8 +47,8 @@ body {
   background-image: url("images/kimon-maritz-183501-unsplash.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  width: 60vh;
-  height: 60vh;
+  width: 90vh;
+  height: 90vh;
 }
 
 /*
@@ -27,7 +57,7 @@ footer style
 .footer-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /*
