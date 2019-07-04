@@ -11,6 +11,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Charm&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <title>Villa Victor</title>
 </head>
@@ -18,16 +21,18 @@
 <body>
 
     <!--The navbar-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <nav class="navbar navbar-expand-sm navbar-expand-md navbar-light fixed-top bg-light">
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <di class="navbar-nav">
                 <a class="nav-item nav-link active hvr-underline-from-center" href="#">Om oss<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link hvr-underline-from-center" href="#">Projekt</a>
+                <a class="nav-item nav-link hvr-underline-from-center" href="projekt.html">Projekt</a>
+                <!--logo
+                <div class="logo"></div>-->
                 
             </div>
         </div>
@@ -35,54 +40,74 @@
     </nav>
     <h1>Villa Victor</h1>
     <!--page body-->
-    <div class="row mt-3">
-        <div class="left col-md-6">
-            <h2 class="mt-5">Vi bygger bostäder för ett hållbarare samhälle</h2>
-        </div>
-        <div class="image1 col-md-6">
-
-        </div>
-    </div>
-    <div class="row mt-3">
-        <div class="image2 col-md-6">
-        </div>
-        <div class="col-md-6">
-            <p>Bostadsrätt Lund</p>
-            <h2>Hustyp: Betong</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-
-            <div class="more mt-3">
-                <a class="nav-item nav-link hvr-shadow-radial" href="projekt.html">Se projektet</a>
+    <section id="1">
+        <div class="row mt-3">
+            <div class="left col-sm-6 col-md-6 col-lg-6">
+                <div class="content-left">
+                    <div>
+                        <h2 class="mt-5">Vi bygger bostäder för ett hållbarare samhälle</h2>
+                    </div>
+                
+                    <div>
+                        <a href="#2"><i class="fas fa-arrow-down"></i></a>
+                    </div>
+                </div>
             </div>
+            <!--upper side image-->
+            <div class="image1 col-sm-6 col-md-6 col-lg-6">
 
-            <!--Pagination-->
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item disabled">
-                        <a class="page-link hvr-underline-from-center" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                    </li>
-                    <li class="page-item"><a class="page-link hvr-underline-from-center" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link hvr-underline-from-center" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link hvr-underline-from-center" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link hvr-underline-from-center" href="#">Next</a>
-                    </li>
-                </ul>
-            </nav>
+            </div>
         </div>
-    </div>
+    </section>
+    <section id="2">
+        <div class="row mt-3">
+            <div class="image2 col-sm-6 col-md-6 col-lg-6">
+            </div>
+            <div class="right col-sm-6 col-md-6 col-lg-6">
+                <div class="content-right">
+                    <p>Bostadsrätt Lund</p>
+                    <h2>Hustyp: Betong</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod  tempor incididunt ut labore et dolore magna.</p>
 
+                <div class="more mt-3">
+                    <a class="nav-item nav-link hvr-shadow-radial" href="projekt.html">Se   projektet</a>
+                </div>
+
+                <!--Pagination-->
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link hvr-underline-from-center" href="#"     tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link hvr-underline-from-center"    href="#">1</a></li>
+                        <li class="page-item"><a class="page-link hvr-underline-from-center"    href="#">2</a></li>
+                        <li class="page-item"><a class="page-link hvr-underline-from-center"    href="#">3</a></li>
+                        <li class="page-item">
+                             <a class="page-link hvr-underline-from-center" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <a href="#1"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
 
     <!--footer area-->
     <div class="footer-wrapper row mt-3">
-        <div class="footer-left col-md-6">
+        <div class="footer-left col-sm-6 col-md-6">
             <p>Till minne av Victor</p>
         </div>
-        <div class="footer-right col-md-6" id="flip">
-                <i>följ oss</i>
+        <div class="footer-right col-sm-6 col-md-6" id="flip">
+            <a href="https://facebook.com"><i class="fab fa-facebook-square">Facebook</i></a><br>
+            <a href="https:/instagram.com"><i class="fab fa-instagram">Instagram</i></a>
+            <!--jQuery evt senare-->    
+            <!-- <i>följ oss</i>
         </div>
             <div id="panel"><a href="https://facebook.com"class="hvr-pulse">Facebook</a><a href="https://instagram.com"class="hvr-pulse">Instagram</a></div>
-        </div>
+        </div> -->
     </div>
         
         
