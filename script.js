@@ -1,6 +1,9 @@
-//navbar toggler
+//fade in
 $(document).ready(function () {
-    $("#flip").click(function () {
-        $("#panel").slideToggle("slow");
-    });
+
+    /*! Fades in page on load */
+    $('body').css('display', 'none');
+    $('body').fadeIn(5000);
+
 });
+
