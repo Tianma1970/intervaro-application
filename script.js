@@ -2,8 +2,11 @@
 $(document).ready(function () {
 
     /*! Fades in page on load */
-    $('body').css('display', 'none');
-    $('body').fadeIn(5000);
+    $('#image1').css('display', 'none');
+    $('#image1').fadeIn(5000);
+    
+    $('#image2').css('display', 'none');
+    $('#image2').fadeIn(5000);
 
 });
 
