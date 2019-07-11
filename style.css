@@ -2,11 +2,35 @@
   box-sizing: content-box;
 }
 /*
-logo
+navbar styles and images
+*/
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  color: black;
+}
 .logo {
   background-image: url("images/logga-black.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
 }
-*/
+
+.icon {
+  display: flex;
+  background-image: url("images/icon-profil.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.plus {
+  display: flex;
+  background-image: url("images/icon-plus.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
+  
+}
 
 .left {
   display: flex;
@@ -38,8 +62,8 @@ logo
   background-image: url("images/anton-alexandru-95007-unsplash.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  width: 90vh;
-  height: 90vh;
+  width: 90vw;
+  height: 100vh;
   
 }
 
@@ -47,8 +71,8 @@ logo
   background-image: url("images/kimon-maritz-183501-unsplash.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  width: 90vh;
-  height: 90vh;
+  width: 90vw;
+  height: 80vh;
 }
 
 /*
@@ -81,11 +105,6 @@ styles jQuery
                 width: 150px;
                 height: 80px;
             }
-
-            h1 {
-                font-family: 'Charm', cursive;
-            }
-
 /*
 Hover effects
 */
@@ -160,7 +179,7 @@ Hover effects
 }
 
 /* Shadow Radial */
-.hvr-shadow-radial {
+/* .hvr-shadow-radial {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -195,4 +214,4 @@ Hover effects
 }
 .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
   opacity: 1;
-}
+} */
