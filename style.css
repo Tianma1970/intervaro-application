@@ -52,6 +52,7 @@ h1 {
 }
 
 .content-right {
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -76,6 +77,31 @@ h1 {
 }
 
 /*
+se more style
+*/
+/* .more {
+  margin-left: 20pX;
+} */
+
+/*
+pagination style
+*/
+/* .row {
+  margin-left: 20px;
+} */
+.arrow-right {
+  background-image: url("images/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.arrow-left {
+  background-image: url("images/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*
 footer style
 */
 .footer-wrapper {
@@ -84,27 +110,6 @@ footer style
   justify-content: space-around;
 }
 
-/*
-styles jQuery
-*/
-
-#panel,
-            #flip {
-                padding-bottom: 25px;
-                text-align: center;
-                /* background-color: rgba(170,170,170,0.76); */
-                /* border: solid 1px #0f0f0f; */
-                width: 500px;
-                height: 50px;
-                border-radius: 10px;
-            }
-            
-            #panel {
-                padding: 30px;
-                display: none;
-                width: 150px;
-                height: 80px;
-            }
 /*
 Hover effects
 */
