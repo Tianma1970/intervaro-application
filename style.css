@@ -16,7 +16,7 @@ h1 {
   
 }
 
-.icon {
+/* .icon {
   display: flex;
   background-image: url("images/icon-profil.svg");
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ h1 {
   background-position: 50% 50%;
   
   
-}
+} */
 
 .left {
   display: flex;
